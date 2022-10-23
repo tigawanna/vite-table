@@ -29,7 +29,7 @@ return (
               path="/"
               element={
                 <ProtectedRoute >
-                  <Home token={token} />
+                  <Home />
                 </ProtectedRoute>
               }
             />
